@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7f3;
+    color: #333;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('image/banner.jpg');
+}
+
+nav {
+    background-color: #ff9f80;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.logo i {
+    margin-right: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #e55b50;
+}
+
+.content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.content h1 {
+    font-family: 'Playfair Display', serif;
+    color: #ff6f61;
+    font-size: 3rem;
+}
+
+.content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.content form {
+    margin-top: 1.5rem;
+}
+
+.content input[type="text"] {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content button[type="submit"] {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content button[type="submit"]:hover {
+    background-color: #e55b50;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff6f61;
+    font-family: 'Playfair Display', serif;
+}
+
+.package-option, .honeymoon-option, .card-option {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #e55b50;
+}
+
+footer {
+    background-color: #ff9f80;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
