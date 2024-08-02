@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Planner</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Honeymoon Packages</title>
+    <link rel="stylesheet" href="honeyM-packages.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="pic">
     <nav>
         <div class="logo">
             <i class="fa fa-gift"></i> WeddingFixer
         </div>
         <ul>
             <li><a href="home.html" target="_blank">Home</a></li>
-            <li><a href="Packages.html" target="_blank">Packages</a></li>
+            <li><a href="wedding-Packages.html" target="_blank"> Wedding Packages</a></li>
             <li><a href="Honeymoon Packages.html" target="_blank">Honeymoon Packages</a></li>
             <li><a href="card Selection.html" target="_blank">Card Selection</a></li>
         </ul>
-        <button class="btn">Contact Us</button>
+        <button class="btn"> <a href="contact.html" target="_blank">Contact Us</a></button>
     </nav>
     <div class="content">
-        <h1>Best <br>Wedding Planner</h1>
+        <h1>Best <br>Wedding Fixer</h1>
         <p>Explore our wedding packages, honeymoon options, and elegant cards to create your dream day. Let's make your special moments unforgettable!
 
         </p>
@@ -30,56 +31,48 @@
             <button type="submit" class="btn">Search</button>
         </form>
     </div>
-    <section class="packages">
-        <h2>Packages</h2>
-        <div class="package-option">
-            <h3>Standard Package</h3>
-            <p>Includes basic wedding arrangements.</p>
-        </div>
-        <div class="package-option">
-            <h3>Deluxe Package</h3>
-            <p>Includes premium arrangements and catering.</p>
-        </div>
-        <div class="package-option">
-            <h3>Premium Package</h3>
-            <p>Includes luxury arrangements, catering, and entertainment.</p>
-        </div>
-    </section>
-
-    <section class="honeymoon">
-        <h2>Honeymoon Packages</h2>
-        <div class="honeymoon-option">
+</div>
+<div class="pic2">
+    
+    <div class="clearfix">
+        <div class="package1">
             <h3>Maldives</h3>
-            <p>7 days stay in a beach resort.</p>
+            <p>Experience a 7-day stay in a stunning beach resort.</p>
+            <ul>
+                <li>Overwater villa </li>
+                <li>All-inclusive dining </li>
+                
+                <li>Private beach dinners</li>
+                <li>Spa treatments</li>
+            </ul>
         </div>
-        <div class="honeymoon-option">
+        <div class="package2">
             <h3>Hawaii</h3>
-            <p>10 days stay in a beachfront villa.</p>
+            <p>Enjoy a 10-day stay in a luxurious beachfront villa.</p>
+            <ul>
+                <li>Oceanfront villa </li>
+                <li>Daily gourmet breakfast</li>
+                <li>Guided island tours</li>
+                <li>Surfing </li>
+            
+            </ul>
         </div>
-        <div class="honeymoon-option">
+        <div class="package3">
             <h3>Paris</h3>
-            <p>5 days stay in a luxury hotel.</p>
+            <p>Indulge in a 5-day stay in a luxury hotel in the heart of Paris.</p>
+            <ul>
+                <li>5-star hotel </li>
+                
+                <li>Private guided tours of Paris</li>
+                <li>Seine River cruise</li>
+                <li>Couples’ spa day</li>
+            </ul>
         </div>
-    </section>
-
-    <section class="cards">
-        <h2>Card Selection</h2>
-        <div class="card-option">
-            <h3>Classic</h3>
-            <p>Elegant and traditional design.</p>
-        </div>
-        <div class="card-option">
-            <h3>Modern</h3>
-            <p>Sleek and contemporary design.</p>
-        </div>
-        <div class="card-option">
-            <h3>Luxury</h3>
-            <p>Extravagant and sophisticated design.</p>
-        </div>
-    </section>
-
+    </div>
+</div>
+<div class="pic3">
     <section class="rsvp">
-        <h2>RSVP</h2>
+        <h2>Registration Form</h2>
         <form action="submit_form.php" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -87,11 +80,8 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="attending">Will you be attending?</label>
-            <select id="attending" name="attending" required>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
+            <label for="date">Date of Wedding</label>
+            <input type="date" id="date">
 
             <label for="guests">Number of guests:</label>
             <input type="number" id="guests" name="guests" min="0" max="10">
@@ -99,6 +89,7 @@
             <input type="submit" value="Submit">
         </form>
     </section>
+</div>
 
     <footer>
         <p>Contact us at: wedding@example.com</p>
